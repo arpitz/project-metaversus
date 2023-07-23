@@ -13,7 +13,7 @@ const NewFeatures = ({ imgUrl, title, subtitle }) => (
       />
     </div>
     <h1 className='mt-[26px] font-bold text-[24px] leading-[30px] text-white'>
-      Title {title}
+      {title}
     </h1>
     <p className='flex-1 mt-[16px] font-normal text-[18px] text-[#B0B0B0] leading-[32px]'>
       {subtitle}
